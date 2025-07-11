@@ -1,3 +1,19 @@
+----RİGHT JOİN--
+--left joinin aynisi ama sagdakilere oncelik verilir 
+--eslemelleri oldugu gibi yazar ama eslesmeyen olursa altina null atamasi yapilir
+
+
+use [ogrenci_bilgileri]
+go
+
+select *from ogrenci a
+	right join ogrenci_adres b
+	on a.okulno=b.ogrencino
+
+select *from ogrenci a
+	left join ogrenci_adres b
+	on a.okulno=b.ogrencino
+
 --right JOİN 2
 
 
