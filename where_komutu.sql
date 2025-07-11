@@ -5,3 +5,5 @@ SELECT *FROM ogrenci WHERE erkekmi=1
 SELECT *FROM ogrenci WHERE okulno>100 AND erkekmi=1
 --bu da senin girdigin sarti sana yazdir farkli bir sey yok
 --normal python gibi dusun
+SELECT *FROM ogrenci where okulno in (102,103,104) AND erkekmi=1
+--lan amk pytthonun aynisi pek farkil hicbirsey yok
